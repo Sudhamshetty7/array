@@ -11,7 +11,7 @@ pipeline {
     }
     stage('run') {
       steps {
-        sh './larnum.sh'
+        sh './larnum.sh $a $b'
       }
     }
   }
