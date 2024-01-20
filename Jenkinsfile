@@ -12,6 +12,7 @@ pipeline {
     }
     stage('run') {
       steps {
+        sh 'cd array'
         sh './larnum.sh $a $b'
       }
     }
