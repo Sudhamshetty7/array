@@ -12,7 +12,7 @@ pipeline {
     }
     stage('run') {
       steps {
-        sh 'cd /home/slave-1/array/array/'
+        sh 'cd /home/slave-1/array'
         sh './larnum.sh $a $b'
       }
     }
