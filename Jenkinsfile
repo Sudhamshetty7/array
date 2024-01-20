@@ -12,6 +12,7 @@ pipeline {
     }
     stage('run') {
       steps {
+        cd /home/slave-1/workspace/array1
         sh './larnum.sh $a $b'
       }
     }
