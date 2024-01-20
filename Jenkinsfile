@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        sh 'rm -rf array'
+        sh 'rm -rf array1'
         sh 'git clone https://github.com/Sudhamshetty7/array.git'
       }
     }
